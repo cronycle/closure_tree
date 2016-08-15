@@ -11,6 +11,7 @@ module ClosureTree
         :dont_order_roots,
         :numeric_order,
         :touch,
+        :cache_child_count,
         :with_advisory_lock
       )
 

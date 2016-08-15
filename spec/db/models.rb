@@ -140,5 +140,5 @@ class Unobtanium < Metal
 end
 
 class MenuItem < ActiveRecord::Base
-  has_closure_tree touch: true, with_advisory_lock: false
+  has_closure_tree touch: true, with_advisory_lock: false, cache_child_count: true
 end

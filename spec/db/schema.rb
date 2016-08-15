@@ -146,6 +146,7 @@ ActiveRecord::Schema.define(:version => 0) do
   create_table 'menu_items' do |t|
     t.string 'name'
     t.references 'parent'
+    t.integer 'child_count', null: false, default: 0
     t.timestamps null: false
   end
 
