@@ -9,6 +9,7 @@ module ClosureTree
         :name_column,
         :order,
         :touch,
+        :cache_child_count,
         :with_advisory_lock
       )
 
